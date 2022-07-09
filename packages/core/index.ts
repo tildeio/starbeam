@@ -5,7 +5,8 @@ export { Formula } from "./src/reactive-core/formula/formula.js";
 export { Linkable } from "./src/reactive-core/formula/linkable.js";
 export { PolledFormula } from "./src/reactive-core/formula/polled-formula.js";
 export {
-  type ResourceBlueprint,
+  type CreateResource,
+  type ResourceBuilder,
   type ResourceConstructor,
   Resource,
 } from "./src/reactive-core/formula/resource.js";
